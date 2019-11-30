@@ -14,32 +14,32 @@ pip install .
 
 Change clash configs:
 
-```Base
+```
 clashcli config -i <API_IP> -p <API_PORT>
 ```
 
 Select proxy:
 
-```Bash
+```
 clashcli select -i <API_IP> -p <API_PORT>
 ```
 
 Update subscribe:
 
-```Base
+```
 clashcli update -l <YOUR_SUBSCRIBE_URL> -c <PATH_TO_YOUR_CLASH_CONFIG_FILE>
 ```
 
 Write configs to file:
 
 
-```Base
+```
 clashcli write -i <API_IP> -p <API_PORT> -l <YOUR_SUBSCRIBE_URL> ...
 ```
 
 Then you can just run without parameters:
 
-```Bash
+```
 clashcli config
 clashcli select
 clashcli update
