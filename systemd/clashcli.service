@@ -1,0 +1,6 @@
+[Unit]
+Description=update clash subscription
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/clashcli update
